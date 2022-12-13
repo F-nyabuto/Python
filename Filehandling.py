@@ -1,0 +1,5 @@
+f = open("demo-file.txt", "w")
+f.write("Hi, this is a new line.")
+f.close()
+f = open("demo-file.txt", "r")
+print(f.read())
